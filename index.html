@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>String separation machine</title>
+</head>
+<body>
+<form action="javascript:work();" class="form">
+    <h1 class="heading">String separation machine</h1>
+    <label for="string">Enter a String:</label>
+    <!-- <div class="input-box-1"> -->
+            <input type="text" name="text" id="zeichenkette" value="">
+    <!-- </div> -->
+    <label for="string">Enter a position of seperation:</label>
+    <div class="input-box-2">
+            <input type="number" name="text" id="pos">
+    </div>
+    <div class="radio-box">
+            <input type="radio" name="vor" id="vor" value="vor"> show Front part
+    </div>
+
+    <div class="radio-box">
+            <input type="radio" name="vor" id="nach" value="nach"> show Back part
+    </div>
+
+    <input type="submit" value="Trennen" id="btn">
+    <div class="result-box">
+            <h2 id="vorText">Front part:</h2>
+            <h2 id="nachText">Back part:</h2>
+    </div>
+    
+    
+</form>
+
+
+   <script src="main.js"></script> 
+</body>
+</html>
