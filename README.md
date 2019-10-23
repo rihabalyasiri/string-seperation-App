@@ -7,4 +7,4 @@ Features:
 Used:
 1. Function.
 2. Slice method
-3. If statment
+3. If statement
