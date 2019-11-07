@@ -1,9 +1,9 @@
 function work() {
-    console.log("working");
 
     // defining variables depend on the Id of the elements in HTML
     var btn = document.getElementById("btn");
     var zeichenkette = document.getElementById("zeichenkette").value;
+    console.log(zeichenkette)
     var pos = document.getElementById("pos").value;
     var vorText = document.getElementById("vorText");
     var nachText = document.getElementById("nachText");
